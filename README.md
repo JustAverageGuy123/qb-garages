@@ -1,71 +1,61 @@
-# qb-garages
+# QB-GARAGES
 
-**Requirements:**
-* [Oxmysql](https://github.com/overextended/oxmysql)
-* [Jg-vehiclemileage](https://github.com/jgscripts/jg-vehiclemileage)
+### Advanced Garage System for QBCore
+- A fully featured, highly configurable garage resource with support for **Public, House, Gang, Job, Depot, and Aircraft/Boat** garages.
 
-**Adding Vehicle Images To Garage**
-* To Add Image Get The Vehicles Spawn Code Of And Make It The Name Of The Image Add It To The Html / Images, Restart qb-garages And Your Done!! 
+  <img width="957" height="438" alt="image" src="https://github.com/user-attachments/assets/357ee7d2-768a-47ab-8912-132dd04a49db" />
+  <img width="949" height="610" alt="image" src="https://github.com/user-attachments/assets/a2897933-8d0e-4f5e-b81e-b7f78d47f457" />
+#
+### ✨ Features
 
-**Public Garages**
-* Park owned cars in public garages.
-* You can only parks vehicles that you own in public garages. 
+- **Vehicle Ownership Checks – Only park/take out vehicles you own or have access to**
+- **House Key System Integration – Share house garages with friends**
+- **Gang & Job Shared/Personal Garages (configurable)**
+- **Depot System – /depot [price] for police impounds**
+- **Auto-Respawn – Choose between last garage or depot**
+- **Vehicle Type Restrictions (car / air / sea)**
+- **Custom Blips & Names per garage**
+- **Vehicle Images in HTML / IMAGES Useing Vehicle Spawn Code As The Image Name (easy setup)**
+- **Mileage Tracking via jg-vehiclemileage**
+- **Fully compatible with latest QBCore**
 
-**House Garages**
-* Park owned cars in house garages. To add a house garage, you must have the realestate job and do /addgarage.
-* You can only parks vehicles from persons that have the key in a house garage. 
-* You can take every vehicle from the house garages to which you have the key. 
-* You can only parks ground vehicles in house garages. 
+#
+### 📋 Requirements
 
-**Gang Garages**
-* Allows for gangs to have their own garages.
-* You can parks every vehicle that is owned by gang members in gang garages. 
-* You can take every vehicle from the gang garages. 
+- [oxmysql](https://github.com/overextended/oxmysql)
+- [jg-vehiclemileage](https://github.com/jgscripts/jg-vehiclemileage)
 
-**Job Garages**
-* Allows jobs to have garage specific.
-* You can parks every vehicle that is owned by someone in job garages. 
-* You can take every vehicle from the job garages. 
+#
+### 📋 Optional Requirements
 
-**Depot Garages**
-* Allows depot cars to be retreived from here. Cops can do /depot [price] to send a car to the depot.
+- [qb-fuel](https://github.com/qbcore-framework/qb-fuel) **This can be changed in the config.lua**
 
-**Auto Respawn Config**
-* If set to true, cars that are currently outside will be placed in the last garage used.
-* If set to false, cars that are currently outside will be placed in the depot.
+#
+### 🖼️ Adding Vehicle Images
 
-**Shared garages Config**
-* If set to true, Gang and job garages are shared.
-* If set to false, Gang and Job garages are personal.
+- **Get the spawn code of the vehicle (e.g., adder)**
+- **Save your image as (.png)**
+- **Place it in html/images/**
+- **Restart useing /refresh then /ensure qb-garages**
+- **Supports png • Case-sensitive!**
 
-**Configurations**
-* You can only parks ground vehicles in garages of type "car" in config. 
-* You can only parks water vehicles in garages of type "sea" in config. 
-* You can only parks air vehicles in garages of type "air" in config. 
-* Vehicle types and jobs or gang can be mixed in config.
+#
+### 📜 License
 
-**Blips and names**
-* Blips and names are modifiable for each garage. 
+```
+QBCore Framework
+Copyright (C) 2021 Joshua Eger
 
-**Preview**
-<img width="957" height="438" alt="image" src="https://github.com/user-attachments/assets/f9b0c878-3965-4cdc-97ba-f818178c60ba" />
-<img width="949" height="610" alt="image" src="https://github.com/user-attachments/assets/50e4b288-030a-4a71-82c8-5c53eed6fa32" />
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-# License
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
-    QBCore Framework
-    Copyright (C) 2021 Joshua Eger
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>
-
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>
+```
