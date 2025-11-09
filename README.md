@@ -1,10 +1,15 @@
 # qb-garages
 
+**Requirements:**
+* [Oxmysql](https://github.com/overextended/oxmysql)
+* [Jg-vehiclemileage](https://github.com/jgscripts/jg-vehiclemileage)
+
+**Adding Vehicle Images To Garage**
+* To Add Image Get The Vehicles Spawn Code Of And Make It The Name Of The Image Add It To The Html / Images, Restart qb-garages And Your Done!! 
+
 **Public Garages**
 * Park owned cars in public garages.
 * You can only parks vehicles that you own in public garages. 
-
-![image](https://github.com/qbcore-framework/qb-garages/assets/57848836/b56344ea-a902-4c07-9ae6-4984486648d2)
 
 **House Garages**
 * Park owned cars in house garages. To add a house garage, you must have the realestate job and do /addgarage.
@@ -42,6 +47,9 @@
 **Blips and names**
 * Blips and names are modifiable for each garage. 
 
+**Preview**
+<img width="957" height="438" alt="image" src="https://github.com/user-attachments/assets/f9b0c878-3965-4cdc-97ba-f818178c60ba" />
+<img width="949" height="610" alt="image" src="https://github.com/user-attachments/assets/50e4b288-030a-4a71-82c8-5c53eed6fa32" />
 
 # License
 
