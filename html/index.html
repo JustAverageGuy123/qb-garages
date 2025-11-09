@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Garage UI</title>
+
+        <!-- Font Awesome 6 (for icons) -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <!-- Header -->
+            <div class="header">
+                <h2 class="garage-header" id="garage-title">Garage</h2>
+                <div class="garage-logo">X</div>
+            </div>
+
+            <!-- Search Box -->
+            <div class="search-box">
+                <input 
+                    type="text" 
+                    class="search-input" 
+                    placeholder="Search by name or plate"
+                    autocomplete="off"
+                />
+            </div>
+
+            <!-- Vehicle List -->
+            <div class="vehicle-table" id="vehicle-container"></div>
+
+            <!-- Footer -->
+            <div class="footer">
+                <div class="vehicle-count">0 vehicle(s)</div>
+                <div class="credits">SASRP</div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
